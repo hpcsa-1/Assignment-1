@@ -4,4 +4,12 @@ def add():
 
 	print("Addition is : ", (n1+n2))
 
+def subtract():
+        n1 = int(input("Enter fist number:"))
+        n2 = int(input("Enter second number:"))
+
+        print("Subtraction is : ", (n1-n2))
+
+
 add()
+subtract()
